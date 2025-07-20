@@ -63,8 +63,9 @@ const dragon = new Fighter({
       orientation: 'vertical' // slice top→down instead of left→right
     },
     jump: {
-      imageSrc: './img/dragon/dragon_jump_sheet01.png',
-      framesMax: 7
+      imageSrc: './img/dragon/1_dragon_jump/dragon_jump.png',
+      framesMax: 6,
+      orientation: 'vertical' // slice top→down instead of left→right
     },
     fall: {
       imageSrc: './img/dragon/1_dragon_fly/1_dragon_fly_000.png',
